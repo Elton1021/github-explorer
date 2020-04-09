@@ -1,3 +1,8 @@
+*{
+  padding:0;
+  margin:0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Navbar{
+  background-color:rgb(218, 60, 60);
+  color:white;
+  padding:10px 50px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+}
+
+.Search{
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  margin-top: -3px;
+  background-color: rgb(65, 14, 14);
+  color: white;
+  padding:5px 10px;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+
+.Search > input {
+  width: 365px;
+  font-size: 18px;
+  padding: 0px 5px;
+  vertical-align: 1px;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.Search > button{
+  border: none;
+  color: inherit;
+  padding: 0px;
+  background-color: inherit;
 }
