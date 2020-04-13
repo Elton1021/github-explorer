@@ -64,7 +64,7 @@
   border-radius: 55px;
 }
 
-.Search > input {
+.Search > form > input {
   width: 365px;
   font-size: 18px;
   padding: 0px 5px;
@@ -78,9 +78,23 @@ input:focus, textarea:focus, select:focus{
   outline: none;
 }
 
-.Search > button{
+.Search > form > button{
   border: none;
   color: inherit;
   padding: 0px;
   background-color: inherit;
+}
+
+.margin-bottom{
+  margin-bottom:10px
+}
+
+.round-img{
+  border-radius: 50%;
+  display: block;
+}
+
+button.btn.btn-sm > a{
+  font-size: 16px;
+  color: white;
 }
