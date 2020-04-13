@@ -74,11 +74,16 @@
   color: inherit;
 }
 
+.closeIcon{
+  display:none;
+  padding-right:2px;
+}
+
 input:focus, textarea:focus, select:focus{
   outline: none;
 }
 
-.Search > form > button{
+.Search > form  button{
   border: none;
   color: inherit;
   padding: 0px;
