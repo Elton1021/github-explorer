@@ -40,9 +40,9 @@ export class Search extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <input type="text" onKeyUp={this.checkValue} placeholder={this.props.placeholder} defaultValue={this.props.value} ref={this.searchInput}></input>
                     <div className="closeIcon" ref={this.searchCloseIcon}>
-                        <button className="fa fa-times" onClick={this.clearSearch}></button>
+                        <button type="button" onClick={this.clearSearch}><i className="fa fa-times"></i></button>
                     </div>
-                    <button className={this.props.buttonIcon}></button>
+                    <button type="submit"><i className={this.props.buttonIcon}></i></button>
                 </form>
             </div>
         )
